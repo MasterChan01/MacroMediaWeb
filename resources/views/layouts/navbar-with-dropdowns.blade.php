@@ -32,28 +32,30 @@
                     <!-- Left Side Of Navbar -->
 
                     <nav class="navbar">
-                        <div class="container-fluid">                            
+                        <div class="container-fluid">
                             <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ url('/') }}">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item" href="#">Service 1</a></li>
-                                                <li><a class="dropdown-item" href="#">Service 2</a></li>
-                                                <li><hr class="dropdown-divider"></li>
-                                                <li><a class="dropdown-item" href="#">Service 3</a></li>
-                                            </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Product</a>
-                                    </li>
-                                </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/') }}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                <div class="drawer" id="services-drawer">
+                                    <ul>
+                                    <li><a href="#">Service 1</a></li>
+                                    <li><a href="#">Service 2</a></li>
+                                    <li><hr></li>
+                                    <li><a href="#">Service 3</a></li>
+                                    </ul>
+                                </div>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                                </li>
+                            </ul>
                             </div>
                         </div>
                     </nav>
@@ -102,5 +104,14 @@
             @yield('content')
         </main>
     </div>
+
+
+@section('content')
+    <div id="app">
+        <button @click="toggleDrawer">Toggle Drawer</button>
+        <drawer v-if="showDrawer"></drawer>
+    </div>
+@endsection
+
 </body>
 </html>

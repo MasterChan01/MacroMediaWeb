@@ -37,3 +37,30 @@ app.component('example-component', ExampleComponent);
  */
 
 app.mount('#app');
+
+
+const servicesNavLink = document.getElementById('navbarDropdown');
+const servicesDrawer = document.getElementById('services-drawer');
+
+// Open the dropdown when the button is clicked or mouse enters the navbar
+servicesNavLink.addEventListener('click', function(event) {
+  event.stopPropagation(); // prevent the click event from bubbling up to the document
+  servicesDrawer.classList.toggle('show');
+});
+servicesNavLink.addEventListener('mouseenter', function(event) {
+  servicesDrawer.classList.add('show');
+});
+
+// Close the dropdown when clicking outside of it or when mouse leaves the dropdown
+document.addEventListener('click', function(event) {
+  // check if the click event was outside of the dropdown and button
+  if (!servicesDrawer.contains(event.target) && event.target !== servicesNavLink) {
+    servicesDrawer.classList.remove('show');
+  }
+});
+servicesDrawer.addEventListener('mouseleave', function(event) {
+  servicesDrawer.classList.remove('show');
+});
+
+
+
