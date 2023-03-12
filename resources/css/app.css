@@ -1,6 +1,6 @@
 .nav-link {
     position: relative; /* set position to relative */    
-    padding: 10px; /* add some padding to the links */
+    padding: 5px; /* add some padding to the links */
     text-decoration: none; /* remove the default underline on links */
     height: 40px; /* set a fixed height */  
 }
@@ -25,8 +25,9 @@
 .drawer {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 73%;
     left: 0;
+    max-width: none;
     width: 100vw; /* set the width to 100vw */
     background-color: #f8f9fa;
     padding: 10px;
@@ -35,8 +36,8 @@
     margin-left: -290px; /* Offset the left edge of the dropdown to align it with the edge of the viewport */
     margin-right: -15px; /* Offset the right edge of the dropdown to align it with the edge of the viewport */
     margin-top: 8px; /* Offset the right edge of the dropdown to align it with the edge of the viewport */
-    padding-left: 15px; /* Add left padding to the dropdown to align it with the navbar */
-    padding-right: 15px; /* Add right padding to the dropdown to align it with the navbar */
+    padding-left: 5px; /* Add left padding to the dropdown to align it with the navbar */
+    padding-right: 5px; /* Add right padding to the dropdown to align it with the navbar */
     height: 0;
     overflow: hidden;
     transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out ;
@@ -45,7 +46,7 @@
 
 .nav-item:hover .drawer {
     display: block;
-    height: 150px; /* Change this value to adjust the height of the dropdown */
+    height: 110px; /* Change this value to adjust the height of the dropdown */
     opacity: 1;
     transform: translateY(0);
 }
@@ -54,18 +55,104 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-content: space-between;
 }
 
 .drawer ul li {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    display: inline-block;
+    margin-right: 30px; /* adjust the margin as needed */
+    padding-left: 30px;
 }
 
 .drawer ul li a {
     color: #212529;
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.drawer ul li a i {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 
 .drawer.show {
     display: block;
     transform: translateY(0);
 }
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 60vh;
+    background: url("/public/img/hero-bg.jpg") top center;
+    background-size: cover;
+}
+  
+#hero:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+  
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+  
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+  
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+  
+#hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+}
+  
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+}
+  
+@media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+}
+
+/* TEST.html or Test.PHP || FOR TESTING ONLY*/
+

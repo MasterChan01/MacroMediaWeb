@@ -9,12 +9,16 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Styles -->
+    
+    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
 </head>
 <body>
     <div id="app">
@@ -34,28 +38,53 @@
                     <nav class="navbar">
                         <div class="container-fluid">
                             <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/') }}">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                <div class="drawer" id="services-drawer">
-                                    <ul>
-                                    <li><a href="#">Service 1</a></li>
-                                    <li><a href="#">Service 2</a></li>
-                                    <li><hr></li>
-                                    <li><a href="#">Service 3</a></li>
-                                    </ul>
-                                </div>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
-                                </li>
-                            </ul>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ url('/') }}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                    <div class="drawer" id="services-drawer">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-film" ></i>Video Editing
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-palette" style="color:#a794ef;"></i>Graphic Design
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                <i class="fas fa-cogs" style="color:skyblue;"></i>Social Media Management
+                                                </a>
+                                            </li>                                            
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-bullhorn" style="color:#58b771;"></i>Social Media Marketing
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus" style="color:gray;"></i>Search Engine Optimization
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </nav>

@@ -7,6 +7,10 @@
 import './bootstrap';
 import { createApp } from 'vue';
 
+
+import './typed/typed.min.js';
+import './typed/typed.min.js.map';
+
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
  * registering components with the application instance so they are ready
@@ -41,6 +45,7 @@ app.mount('#app');
 
 const servicesNavLink = document.getElementById('navbarDropdown');
 const servicesDrawer = document.getElementById('services-drawer');
+let timeoutId;
 
 // Open the dropdown when the button is clicked or mouse enters the navbar
 servicesNavLink.addEventListener('click', function(event) {
@@ -50,6 +55,14 @@ servicesNavLink.addEventListener('click', function(event) {
 servicesNavLink.addEventListener('mouseenter', function(event) {
   servicesDrawer.classList.add('show');
 });
+servicesDrawer.addEventListener('mouseenter', function(event) {
+  clearTimeout(timeoutId);
+});
+servicesDrawer.addEventListener('mouseleave', function(event) {
+  timeoutId = setTimeout(function() {
+    servicesDrawer.classList.remove('show');
+  }, 1000);
+});
 
 // Close the dropdown when clicking outside of it or when mouse leaves the dropdown
 document.addEventListener('click', function(event) {
@@ -58,9 +71,18 @@ document.addEventListener('click', function(event) {
     servicesDrawer.classList.remove('show');
   }
 });
-servicesDrawer.addEventListener('mouseleave', function(event) {
-  servicesDrawer.classList.remove('show');
+servicesNavLink.addEventListener('mouseleave', function(event) {
+  timeoutId = setTimeout(function() {
+    servicesDrawer.classList.remove('show');
+  }, 3000);
 });
 
+import { onMounted } from 'vue';
 
-
+// Initialize typed.js on the text element
+let typed = new Typed('#typed-text', {
+  strings: ['Hello world'], // Array of strings to type out
+  typeSpeed: 100, // Speed of typing in milliseconds
+  backSpeed: 50, // Speed of backspacing in milliseconds
+  loop: true // Whether or not to loop through the strings array
+});

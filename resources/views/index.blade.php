@@ -4,7 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <script src="resources\js\app.js"></script>   
+        <script src="{{ url('/js/app.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+     
         <title>Laravel</title>
 
         
@@ -15,7 +18,22 @@
             @include('layouts.navbar-without-dropdowns')
         @endif        
     
+         <!-- Hero Section --> 
+         <section id="hero" class="d-flex flex-row justify-content-between align-items-center p-5">           
+
+            <div class="hero-container" data-aos="fade-in">
+                <h1>Macro Media</h1>
+                <text>Services</text>
+                <p id="typed-text">We offer<span class="typed"></span></p>                
+            </div>
+
+            <div class="img-container d-flex justify-content-end align-items-center">
+                <img src="{{asset('img/seo-hero-photo.jpg')}}" alt="" style="width: 650px" class="img-fluid">
+            </div>
+
+        </section>
         
+        <!-- End Hero -->
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
