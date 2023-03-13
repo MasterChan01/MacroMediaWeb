@@ -19,6 +19,7 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
+
 </head>
 <body>
     <div id="app">
@@ -46,8 +47,12 @@
                                         <a class="nav-link" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                    <div class="drawer" id="services-drawer">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services 
+                                        &nbsp
+                                        <i class="fas fa-chevron-down chevron-icon"></i>
+                                        </a>
+
+                                    <div class="drawer justify-content-center" id="services-drawer">                                        
                                         <ul>
                                             <li>
                                                 <a href="#">
@@ -129,8 +134,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
+        <main class="">
         </main>
     </div>
 

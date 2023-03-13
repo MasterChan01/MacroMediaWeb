@@ -1,8 +1,46 @@
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: #212529;
+}
+
 .nav-link {
     position: relative; /* set position to relative */    
     padding: 5px; /* add some padding to the links */
     text-decoration: none; /* remove the default underline on links */
     height: 40px; /* set a fixed height */  
+}
+
+/*.nav-link .sticky{*/
+.navbar.sticky{
+    position: fixed; /* set position to relative */    
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item .chevron-icon::before {
+    content: '\f078'; /* add the chevron down icon using font-awesome */
+    font-family: 'Font Awesome 5 Free'; /* set the font family */
+    font-weight: 900; /* set the font weight */
+    position: absolute; /* set position to absolute */
+    right: 0; /* align to the right */
+    top: 50%; /* align to the vertical center */
+    transform: translateY(-50%); /* adjust the position */
+    margin-left: 30px; /* add some margin between the icon and the text */
+}
+
+.nav-item .chevron-icon::after {
+    content: '\f077'; /* change the icon to a chevron up when the link is active */
+    font-family: 'Font Awesome 5 Free'; /* set the font family */
+    font-weight: 900; /* set the font weight */
+    position: absolute; /* set position to absolute */
+    right: 0; /* align to the right */
+    top: 50%; /* align to the vertical center */
+    transform: translateY(-50%) rotateX(180deg); /* adjust the position */
+    margin-left: 10px; /* add some margin between the icon and the text */
+    display: none; /* hide the chevron up icon initially */
 }
 
 .nav-link::after {
@@ -49,13 +87,16 @@
     height: 110px; /* Change this value to adjust the height of the dropdown */
     opacity: 1;
     transform: translateY(0);
+    /*Test*/
+    
 }
 
 .drawer ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     justify-content: space-between;
+    text-align: center;
 }
 
 .drawer ul li {
@@ -85,6 +126,11 @@
 }
 
 /*--------------------------------------------------------------
+# BODY
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
@@ -93,6 +139,16 @@
     width: 100%;
     height: 60vh;
     background: url("/public/img/hero-bg.jpg") top center;
+    background-size: cover;
+}
+
+#hero-reversed {
+    padding-top: 50px;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+    background: url("/public/img/hero-bg-reverse-y.jpg") top center;
     background-size: cover;
 }
   
@@ -134,7 +190,10 @@
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
 }
-  
+
+.img-container{
+    z-index: 1;
+}
 @media (min-width: 1024px) {
     #hero {
       background-attachment: fixed;
@@ -153,6 +212,84 @@
       margin-bottom: 30px;
     }
 }
+/************************************Section Content Container************************************/
+#body-container {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
 
 /* TEST.html or Test.PHP || FOR TESTING ONLY*/
+
+#content {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 60vh;
+    background: url("/public/img/hero-bg.jpg") top center;
+    background-size: cover;
+}
+  
+#content:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+  
+#content .content-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #149ddd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active #header {
+    left: 0;
+}
+
+
+/************************************ COLORS ********************************************/
+.span-bg-color{
+    background-color:#FFA500;
+}
+
+
+
+
+
+
+
+
+
 
