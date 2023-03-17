@@ -1670,7 +1670,9 @@ a {
   }
 }
 .cid-sFGGxz3b6J .image-wrapper img {
+  padding-left: 15px;
   width: 100%;
+  height: auto;
   object-fit: cover;
 }
 .cid-sFGGxz3b6J .mbr-text,

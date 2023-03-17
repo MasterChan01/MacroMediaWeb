@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 nav {
     position: absolute;
     top: 0;
     width: 100%;
     background-color: #fff;
     box-shadow: #212529;
+    z-index: 999;
 }
 
 .nav-link {
