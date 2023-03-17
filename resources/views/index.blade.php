@@ -63,23 +63,23 @@
     </head>
 
     <body class="">
-            <section id="hero-reversed" class="body-container justify-content-between align-items-center "> 
+            <section id="hero-reversed" class="body-container justify-content-between align-items-center cid-sFGzrhlvIh"> 
                 <div id="" class="" data-aos="fade-in">
                     <div class="mbr-overlay" style="">
-                        <div class="container">
+                        <div class="container mt-3">
                             <div class="media-container">
                                 <div class="col-md-12 col-lg-10 m-auto align-center">
                                     <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1" style="color:white"><strong>Marketing <br>Research Agency</strong></h1>
                                     <p class="mbr-text mbr-white mbr-fonts-style display-7" style="color:white">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. Sed auctor justo elit, ac vestibulum metus semper non.</p>
-                                    <div class="mbr-section-btn align-center text-center"><a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a> <a class="btn btn-secondary display-4" href="index.html#features19-a">Read More</a></div>
+                                    <div class="mbr-section-btn align-center text-center pt-3"><a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a> <a class="btn btn-secondary display-4" href="index.html#features19-a">Read More</a></div>
 
                                     <div class="row pt-5 justify-content-center">
                                         <div class="col-12 col-md-6 col-lg-3">
                                             <div class="card-wrapper">
                                                 <div class="card-box align-center text-center">
                                                     <span class="mbr-iconfont mobi-mbri-cash mobi-mbri px-3" style="color: rgb(55, 150, 131); fill: rgb(55, 150, 131); font-size:60px;"></span>
-                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7 pt-3" style="color:white"><strong>Market Analysis</strong></h4>
+                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7" style="color:white"><strong>Market Analysis</strong></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@
                                             <div class="card-wrapper">
                                                 <div class="card-box align-center text-center">
                                                     <span class="mbr-iconfont mobi-mbri-cart-add mobi-mbri" style="color: rgb(55, 150, 131); fill: rgb(55, 150, 131); font-size:60px;"></span>
-                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7 pt-3" style="color:white"><strong>Demand Research</strong></h4>
+                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7" style="color:white"><strong>Demand Research</strong></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@
                                             <div class="card-wrapper">
                                                 <div class="card-box align-center text-center">
                                                     <span class="mbr-iconfont mobi-mbri-users mobi-mbri " style="color: rgb(55, 150, 131); fill: rgb(55, 150, 131); font-size:60px;"></span>
-                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7 pt-3" style="color:white"><strong>Competitor Analysis</strong></h4>
+                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7" style="color:white"><strong>Competitor Analysis</strong></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@
                                             <div class="card-wrapper">
                                                 <div class="card-box align-center text-center">
                                                     <span class="mbr-iconfont mobi-mbri-layers mobi-mbri text-center" style="color: rgb(55, 150, 131); fill: rgb(55, 150, 131); font-size:60px;"></span>
-                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7 pt-3" style="color:white"><strong>Research Results</strong></h4>
+                                                    <h4 class="card-title align-center mbr-black mbr-fonts-style display-7" style="color:white"><strong>Research Results</strong></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,11 +184,11 @@
                                 <h6 class="card-title mbr-fonts-style mb-4 display-2"><strong>About Agency</strong></h6>
                                 <p class="mbr-text mbr-fonts-style display-7">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. <br><br>Sed auctor justo elit, ac vestibulum metus semper non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam ut viverra ex. Nunc non elementum urna, auctor faucibus est.</p>
-                                <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="https://mobiri.se">Read More</a></div>
+                                <div class="mbr-section-btn pt-3"><a class="btn btn-secondary display-4" href="https://mobiri.se">Read More</a></div>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 ">
-                            <div class="image-wrapper ml-5">
+                            <div class="image-wrapper m-2">
                                 <img src="{{ asset('img/About-company-img.png') }}" alt="Mobirise Website Builder">
                             </div>
                         </div>
