@@ -13,7 +13,7 @@
 
     <body>
         <div id="app">
-            <nav class="navbar text-light span-bg-color shadow-sm">
+            <nav class="navbar navtop text-light span-bg-color shadow-sm pl-4">
                 <div class="container">
                     <div class="py-2">           
 
@@ -21,7 +21,7 @@
 
                         <a href="#" style="">
 
-                        <span class = "" ref="" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold;"> &nbsp; Improve your online visibility and business rank with our SEO services and reach your target audience by ranking higher on search engines.</span>
+                        <span class = "" ref="" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold;"> &nbsp; Improve your online visibility and business rank with our different SEO services and reach your target audience by ranking higher on different search engines.</span>
 
                         </a>
                     </div>

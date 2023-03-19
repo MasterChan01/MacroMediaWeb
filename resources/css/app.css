@@ -3,12 +3,12 @@ html {
   }
 
 nav {
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
     background-color: #fff;
     box-shadow: #212529;
-    z-index: 999;
+    z-index: 100;
 }
 
 .nav-link {
@@ -23,6 +23,11 @@ nav {
     position: fixed; /* set position to relative */    
     top: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.navbar.navtop{
+    z-index: 10;
 }
 
 .nav-item .chevron-icon::before {
@@ -258,7 +263,7 @@ nav {
     position: fixed;
     right: 15px;
     top: 15px;
-    z-index: 9998;
+    z-index: 100;
     border: 0;
     font-size: 24px;
     transition: all 0.4s;
