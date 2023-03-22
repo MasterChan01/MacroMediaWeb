@@ -7,6 +7,11 @@
 import './bootstrap';
 import { createApp } from 'vue';
 
+/*Import Smoothscroll JS*/
+
+import smoothscroll from 'smoothscroll';
+var smoothscroll = require('smoothscroll');
+
 
 import './typed/typed.min.js';
 import './typed/typed.min.js.map';

@@ -1752,6 +1752,10 @@ a {
   padding-bottom: 6rem;
   background-color: #232323;
 }
+.cid-sFGBGm1Q33 .card{
+  background-color: #353535;
+  margin-bottom: 2rem;
+}
 .cid-sFGBGm1Q33 .card-wrapper {
   background-color: #353535;
   margin-bottom: 2rem;
@@ -1875,14 +1879,15 @@ a {
 .cid-sFGFZiVtyo img {
   width: 120px;
   margin: auto;
-  filter: invert(1);
+  filter: invert(0);
 }
 .cid-sFGFZiVtyo .card {
   transition: all 0.3s;
-  height: fit-content;
+  height: fit-content;  
   padding: 1rem 0;
   opacity: 0.7;
   margin-bottom: 1rem;
+
 }
 @media (min-width: 992px) {
   .cid-sFGFZiVtyo .card {
@@ -1895,6 +1900,9 @@ a {
 .cid-sFGJrLtt3K {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  background-color: #353535;
+}
+.cid-sFGJrLtt3K .card{
   background-color: #353535;
 }
 .cid-sFGJrLtt3K .mbr-iconfont {

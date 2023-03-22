@@ -11,10 +11,15 @@
 
         <script src="resources\js\app.js"></script>   
         <script src="{{ url('/js/app.js') }}"></script>
+        <script type ="module" src="/js/smoothscroll/smooth-scroll.js'"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+        <!--Import Smooth Scroll JS file from resources-->        
+        @vite(['resources/js/smoothscroll/smooth-scroll.js'])
 
         
         <link rel="stylesheet" href="{{ asset('icons/mobirise-icons2/mobirise2.css') }}">
+        <link rel="stylesheet" href="{{ asset('icons/socicon/css/styles.css') }}">
 
 
         <title>Laravel</title>
@@ -72,7 +77,7 @@
                                     <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1" style="color:white"><strong>Marketing <br>Research Agency</strong></h1>
                                     <p class="mbr-text mbr-white mbr-fonts-style display-7" style="color:white">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. Sed auctor justo elit, ac vestibulum metus semper non.</p>
-                                    <div class="mbr-section-btn align-center text-center pt-3"><a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a> <a class="btn btn-secondary display-4" href="index.html#features19-a">Read More</a></div>
+                                    <div class="mbr-section-btn align-center text-center pt-3"><a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a> <a class="btn btn-secondary display-4" href="#features19-a">Read More</a></div>
 
                                     <div class="row pt-5 justify-content-center">
                                         <div class="col-12 col-md-6 col-lg-3">
@@ -209,7 +214,7 @@
                         <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                 <div class="item-img">
-                                    <img src="assets/images/mbr-5.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5"><strong>Market Analysis</strong></h5>
@@ -223,7 +228,7 @@
                         <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                 <div class="item-img">
-                                    <img src="assets/images/mbr-2.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5"><strong>Demand Research</strong></h5>
@@ -237,7 +242,7 @@
                         <div class="item features-image сol-12 col-md-6 col-lg-4">
                             <div class="item-wrapper">
                                 <div class="item-img">
-                                    <img src="assets/images/mbr-1.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5"><strong>Competitor Analysis</strong></h5>
@@ -344,20 +349,20 @@
                         <div class="col-sm-6 col-lg-4">
                             <div class="card-wrap">
                                 <div class="image-wrap">
-                                    <img src="assets/images/mbr-6.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="content-wrap">
                                     <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                                        <strong>John Smith</strong>
+                                        <strong>Jay Podutan</strong>
                                     </h5>
                                     <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                                        <strong>Programmer</strong>
+                                        <strong>Chairman / CEO</strong>
                                     </h6>
                                     <p class="card-text mbr-fonts-style align-center display-7">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.</p>
+                                        Pogi single matalino rami chix :P</p>
                                     <div class="social-row display-7">
                                         <div class="soc-item">
-                                            <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                            <a href="https://www.facebook.com/JayMarco08" target="_blank">
                                                 <span class="mbr-iconfont socicon socicon-facebook"></span>
                                             </a>
                                         </div>
@@ -367,8 +372,8 @@
                                             </a>
                                         </div>
                                         <div class="soc-item">
-                                            <a href="https://instagram.com/mobirise" target="_blank">
-                                                <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                            <a href="https://www.instagram.com/kuya_jhake" target="_blank">                                                
+                                            <span class="mbr-iconfont socicon socicon-instagram"></span>
                                             </a>
                                         </div>
                                         
@@ -382,21 +387,21 @@
                         <div class="col-sm-6 col-lg-4">
                             <div class="card-wrap">
                                 <div class="image-wrap">
-                                    <img src="assets/images/mbr-7.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="content-wrap">
                                     <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                                        <strong>Sarah Palmer</strong>
+                                        <strong>Christian Garcia</strong>
                                     </h5>
                                     <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                                        <strong>Manager</strong>
+                                        <strong>President / CTO</strong>
                                     </h6>
                                     <p class="card-text mbr-fonts-style align-center display-7">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                                        Pogi malakas pogi pogi pogi yan tama yan
                                     </p>
                                     <div class="social-row display-7">
                                         <div class="soc-item">
-                                            <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                            <a href="https://www.facebook.com/ChristianGarcia4201" target="_blank">
                                                 <span class="mbr-iconfont socicon socicon-facebook"></span>
                                             </a>
                                         </div>
@@ -406,7 +411,7 @@
                                             </a>
                                         </div>
                                         <div class="soc-item">
-                                            <a href="https://instagram.com/mobirise" target="_blank">
+                                            <a href="https://www.instagram.com/iam_christian01" target="_blank">
                                                 <span class="mbr-iconfont socicon socicon-instagram"></span>
                                             </a>
                                         </div>
@@ -421,7 +426,7 @@
                         <div class="col-sm-6 col-lg-4">
                             <div class="card-wrap">
                                 <div class="image-wrap">
-                                    <img src="assets/images/mbr-8.jpg" alt="Mobirise Website Builder">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="content-wrap">
                                     <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -472,9 +477,9 @@
                         
                         
                     </div>
-                    <div class="row justify-content-center mt-4">
+                    <div class="row justify-content-center mt-4 img-front">
                         <div class="col-md-3 card">
-                            <img src="assets/images/1.png" alt="Mobirise Website Builder">
+                            <img src="{{asset('img/index/clients/pcs-logo.png')}}" alt="Mobirise Website Builder">
                         </div>
                         <div class="col-md-3 card">
                             <img src="assets/images/2.png">
@@ -499,15 +504,12 @@
 
             <section data-bs-version="5.1" class="contacts1 cid-sFGJrLtt3K" id="contacts1-c">
 
-                
-
-                
                 <div class="container">
                     <div class="mbr-section-head">
                         <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                             <strong>Contacts</strong>
                         </h3>
-                        <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                        <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5 text-center">Contact us now to book your service! Do you have any questions? <br> Contact us and lets get started. </h4>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="card col-12 col-lg-6">
@@ -519,6 +521,10 @@
                                     <h4 class="card-title mbr-fonts-style mb-2 display-2">
                                         <strong>Email</strong>
                                     </h4>
+                                    <h5 class="link mbr-fonts-style display-7"><a href="mailto:JayMarco08@gmail.com" class="text-primary">JayMarco08@gmail.com</a>
+                                    </h5>
+                                    <h5 class="link mbr-fonts-style display-7"><a href="mailto:christiangarcia.cpe@gmail.com" class="text-primary">Christiangarcia.cpe@gmail.com</a>
+                                    </h5>
                                     <p class="mbr-text mbr-fonts-style mb-2 display-4">
                                         We will reply as soon as possible</p>
                                     <h5 class="link mbr-fonts-style display-7"><a href="mailto:info@site.com" class="text-primary">Send us an
@@ -534,7 +540,13 @@
                                         <span class="mbr-iconfont mobi-mbri-mobile-2 mobi-mbri"></span>
                                     </div>
                                     <h4 class="card-title mbr-fonts-style align-center mb-2 display-2">
-                                        <strong>Phone</strong>
+                                        <strong>Phone : </strong> 
+                                    </h4>
+                                    <h4 class="link mbr-black mbr-fonts-style display-7">
+                                        <a href="tel:+639260286927" class="text-primary">(+63)9260286927</a>
+                                    </h4>
+                                    <h4 class="link mbr-black mbr-fonts-style display-7">
+                                        <a href="tel:+639260286927" class="text-primary">(+63)1234567890</a>
                                     </h4>
                                     <p class="mbr-text mbr-fonts-style mb-2 display-4">
                                         Mon - Fri 09:00 - 18:00</p>
@@ -592,27 +604,89 @@
                 </div>
             </section>
 
-            <section data-bs-version="5.1" class="map3 cid-sFGDeCn4OW" id="map3-6">
+            <section data-bs-version="5.1" class="map3 cid-sFGDeCn4OW" id="map3-6">                
                 
-                
-                
-                
-
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="mbr-section-title mb-4 align-center mbr-fonts-style display-2"><strong>Office Locations</strong></h3>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h4 class="mbr-section-subtitle mb-3 align-center mbr-fonts-style display-5">New York</h4>
-                            <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=360 5th Ave, New York, NY 10118" allowfullscreen=""></iframe></div>
+                            <h4 class="mbr-section-subtitle mb-3 align-center mbr-fonts-style display-5">Cavite</h4>
+                            <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.230102737579!2d120.85640002013848!3d14.401499601656083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962cf3366ca587%3A0x836907f8eea56d2e!2sCV24%2BGW2%2C%20Trece%20Martires%20Rd%2C%20Tanza%2C%204108%20Cavite!5e0!3m2!1sen!2sph!4v1679503456291!5m2!1sen!2sph" allowfullscreen=""></iframe></div>
+
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h4 class="mbr-section-subtitle mb-3 mt-5 mt-lg-0 align-center mbr-fonts-style display-5">London</h4>
-                            <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=4-5 Chicheley St, South Bank, London SE1 7" allowfullscreen=""></iframe></div>
+                            <h4 class="mbr-section-subtitle mb-3 mt-5 mt-lg-0 align-center mbr-fonts-style display-5">Cavite</h4>
+                            <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.230102737579!2d120.85640002013848!3d14.401499601656083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962cf34acc76d3%3A0xf0518a8d67f72212!2sDiocesan%20Shrine%20of%20Saint%20Augustine%20-%20Poblacion%20I%2C%20Tanza%2C%20Cavite%20(Diocese%20of%20Imus)!5e0!3m2!1sen!2sph!4v1679503606112!5m2!1sen!2sph" allowfullscreen=""></iframe></div>
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section data-bs-version="5.1" class="footer1 cid-sFGDg6hy8z" once="footers" id="footer1-7">
+
+                <div class="container">
+                    <div class="row mbr-white">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                                <strong>Links</strong></h5>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="mbr-text item-wrap">Home</li><li class="mbr-text item-wrap">Features</li><li class="mbr-text item-wrap">Research</li><li class="mbr-text item-wrap">Team</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                                <strong>Info</strong></h5>
+                            <ul class="list mbr-fonts-style display-4">
+
+                                <li class="mbr-text item-wrap">About</li><li class="mbr-text item-wrap">Pricing</li><li class="mbr-text item-wrap">Contacts</li><li class="mbr-text item-wrap">Office</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                                <strong>Features</strong></h5>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="mbr-text item-wrap">Market Analysis
+                                </li><li class="mbr-text item-wrap">Demand Research
+                                </li><li class="mbr-text item-wrap">Competitor Analysis
+                                </li><li class="mbr-text item-wrap">Research Results
+                                </li><li class="mbr-text item-wrap"><br></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                                <strong>About</strong>
+                            </h5>
+                            <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus,</p>
+                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                                <strong>Social</strong>
+                            </h5>
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="https://twitter.com/mobirise" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="https://twitter.com/mobirise" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="https://twitter.com/mobirise" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap; align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/2972995" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
             </section>
             <!--
             <section  class="d-flex flex-row justify-content-between align-items-center ">           
