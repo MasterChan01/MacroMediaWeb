@@ -557,10 +557,16 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
 }
-a,
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 a:hover {
   color: #6592e6;
 }
+
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
   color: #ffffff;
@@ -1652,8 +1658,8 @@ a {
   color: #bbbbbb;
 }
 .cid-sFGGxz3b6J {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #232323;
 }
 .cid-sFGGxz3b6J .row {
@@ -1686,11 +1692,11 @@ a {
   color: #bbbbbb;
 }
 .cid-sFGGxz3b6J .card-title {
-  color: #379683;
+  color: #c675ff;
 }
 .cid-sFGGDvi61Z {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #353535;
 }
 .cid-sFGGDvi61Z img,
@@ -1733,7 +1739,7 @@ a {
   margin-top: auto !important;
 }
 .cid-sFGGDvi61Z .mbr-section-title {
-  color: #c37a7a;
+  color: #C675FF;
 }
 .cid-sFGGDvi61Z .mbr-text,
 .cid-sFGGDvi61Z .mbr-section-btn {
@@ -1796,7 +1802,7 @@ a {
 .cid-sFGGp6mJeM {
   padding-top: 6rem;
   padding-bottom: 7rem;
-  background: #353535;
+  background: #232323;
 }
 .cid-sFGGp6mJeM .team-card {
   margin-bottom: 2rem;
@@ -1806,7 +1812,7 @@ a {
   transform: translateY(-10px);
 }
 .cid-sFGGp6mJeM .card-wrap {
-  background: #232323;
+  background: #353535;
   border-radius: 4px;
 }
 @media (max-width: 991px) {
@@ -2003,6 +2009,9 @@ a {
 }
 .cid-sFGDeCn4OW .mbr-section-subtitle {
   color: #bbbbbb;
+}
+.cid-sFGDg6hy8z .mbr-section-subtitle {
+  color: rgb(230, 219, 219);
 }
 .cid-sFGDg6hy8z {
   padding-top: 5rem;

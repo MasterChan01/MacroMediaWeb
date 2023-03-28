@@ -24,3 +24,4 @@ Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('i
 #Route::get('/login', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/js/app.js', 'App\Http\Controllers\Jscontroller@getAppJs');
+Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');

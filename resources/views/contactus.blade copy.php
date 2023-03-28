@@ -70,7 +70,7 @@
     <body class="">
             <section id="hero-reversed" class="body-container justify-content-between align-items-center cid-sFGzrhlvIh"> 
                 <div id="" class="" data-aos="fade-in">
-                    <div class="mbr-overlay" >
+                    <div class="mbr-overlay" style="">
                         <div class="container mt-3">
                             <div class="media-container">
                                 <div class="col-md-12 col-lg-10 m-auto align-center">
@@ -179,7 +179,28 @@
                     </div>
                 </div>
             </section>
-            
+
+            <section data-bs-version="5.1" class="features18 cid-sFGGxz3b6J" id="features19-a">
+                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="card col-12 col-lg">
+                            <div class="card-wrapper">
+                                <h6 class="card-title mbr-fonts-style mb-4 display-2"><strong>About Agency</strong></h6>
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. <br><br>Sed auctor justo elit, ac vestibulum metus semper non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam ut viverra ex. Nunc non elementum urna, auctor faucibus est.</p>
+                                <div class="mbr-section-btn pt-3"><a class="btn btn-secondary display-4" href="https://mobiri.se">Read More</a></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 ">
+                            <div class="image-wrapper m-2">
+                                <img src="{{ asset('img/About-company-img.png') }}" alt="Mobirise Website Builder">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section data-bs-version="5.1" class="features3 cid-sFGGDvi61Z" id="features3-b">
                 
                 
@@ -312,7 +333,140 @@
                     </div>
                 </div>
             </section>
-            
+
+            <section data-bs-version="5.1" class="team1 cid-sFGGp6mJeM" id="team1-9">
+                
+
+                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                                <strong>Our Team</strong>
+                            </h3>
+                            
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card-wrap">
+                                <div class="image-wrap">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="content-wrap">
+                                    <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                        <strong>Jay Podutan</strong>
+                                    </h5>
+                                    <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                        <strong>Chairman / CEO</strong>
+                                    </h6>
+                                    <p class="card-text mbr-fonts-style align-center display-7">
+                                        Pogi single matalino rami chix :P</p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://www.facebook.com/JayMarco08" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://twitter.com/mobirise" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://www.instagram.com/kuya_jhake" target="_blank">                                                
+                                            <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                            </a>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card-wrap">
+                                <div class="image-wrap">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="content-wrap">
+                                    <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                        <strong>Christian Garcia</strong>
+                                    </h5>
+                                    <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                        <strong>President / CTO</strong>
+                                    </h6>
+                                    <p class="card-text mbr-fonts-style align-center display-7">
+                                        Pogi malakas pogi pogi pogi yan tama yan
+                                    </p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://www.facebook.com/ChristianGarcia4201" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://twitter.com/mobirise" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://www.instagram.com/iam_christian01" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                            </a>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card-wrap">
+                                <div class="image-wrap">
+                                    <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="content-wrap">
+                                    <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                        <strong>Jessica Swift</strong>
+                                    </h5>
+                                    <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                        <strong>Analyst</strong>
+                                    </h6>
+                                    <p class="card-text mbr-fonts-style align-center display-7">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                                    </p>
+                                    <div class="social-row display-7">
+                                        <div class="soc-item">
+                                            <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://twitter.com/mobirise" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                            </a>
+                                        </div>
+                                        <div class="soc-item">
+                                            <a href="https://instagram.com/mobirise" target="_blank">
+                                                <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                            </a>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
             <section data-bs-version="5.1" class="clients1 cid-sFGFZiVtyo" id="clients1-8">
                 
                 <div class="images-container container">

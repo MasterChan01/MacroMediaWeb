@@ -22,6 +22,7 @@
 
 </head>
 <body>
+    
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -41,15 +42,15 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ url('/') }}">Home</a>
+                                        <a class="nav-link mx-2" href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link mx-2" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services 
+                                        <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services 
                                         &nbsp
-                                        <i class="fas fa-chevron-down chevron-icon"></i>
+                                        <i class="fas fa-chevron-down chevron-icon mr-3"></i>
                                         </a>
 
                                     <div class="drawer justify-content-center" id="services-drawer">                                        
@@ -84,10 +85,11 @@
 
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
+                                        <a class="nav-link mx-2" href="/about">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
+                                        <a class="nav-link mx-2" href="#">Contact Us</a>
+                                        
                                     </li>
                                 </ul>
                             </div>
@@ -118,8 +120,8 @@
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                    onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -133,18 +135,17 @@
                 </div>
             </div>
         </nav>
-
-        <main class="">
-        </main>
+        
     </div>
 
 
-@section('content')
-    <div id="app">
-        <button @click="toggleDrawer">Toggle Drawer</button>
-        <drawer v-if="showDrawer"></drawer>
-    </div>
-@endsection
+
+    @section('content')
+        <div id="app">
+            <button @click="toggleDrawer">Toggle Drawer</button>
+            <drawer v-if="showDrawer"></drawer>
+        </div>
+    @endsection
 
 </body>
 </html>
