@@ -35,3 +35,17 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('sticky');
     }
 });
+
+/******************************Slider Javascript**********************************/ 
+
+$(document).ready(function(){
+    $("#testimonial4 .carousel-control-next").click(function(){
+        var currentItem = $("#testimonial4 .carousel-item.active");
+        var nextItem = currentItem.next();
+        if (nextItem.length == 0) {
+            nextItem = $("#testimonial4 .carousel-item").first();
+        }
+        currentItem.removeClass("active");
+        nextItem.addClass("active");
+    });
+});

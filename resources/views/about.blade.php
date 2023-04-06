@@ -13,9 +13,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
+        
         <!-- ####### Redundant. Currently using Vite #########
         <script src="resources\js\app.js"></script>
         -->
+
+        <script src="resources\js\custom.js"></script>   
         <script src="{{ url('/js/custom.js') }}"></script>
         <script src="{{ url('/js/app.js') }}"></script>
         <script type ="module" src="/js/smoothscroll/smooth-scroll.js"></script>
@@ -23,6 +26,12 @@
 
         <!--Import Smooth Scroll JS file from resources-->        
         @vite(['resources/js/smoothscroll/smooth-scroll.js'])
+
+        <!--Import JS AND CSS RULES-->
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
+
+        @vite(['resources/css/app.css'])
 
         
         <link rel="stylesheet" href="{{ asset('icons/mobirise-icons2/mobirise2.css') }}">
@@ -87,7 +96,21 @@
             <div class="container">
                 <div class="mbr-section-head">
                     <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>How it Works</strong></h4>
+                    <strong>Mission</strong></h4>
+
+                    <p class="mbr-text mbr-fonts-style display-7 text-center p-6">
+                    "Our Mission is to help any type of businesses increase conversions and revenue by providing <br> excellence in different kinds of digital marketing strategies."
+                    </p>
+                    
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                    <strong>Vision</strong></h4>
+
+                    <p class="mbr-text mbr-fonts-style display-7 text-center p-6">
+                    "Our Vision is to be known as a globally competitive marketing agency composed of top-notch professionals that <br> provides creativity, unique, and high quality of service."
+                    </p>
+
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Core Values</strong></h4>
                     
                 </div>
                 <div class="row mt-4">
@@ -96,9 +119,9 @@
                             <div class="gallery-component__col">
                                 <a class="gallery-card" href="#features3-b">
                                     <div class="gallery-card__preview">
-                                        <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}">
+                                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680106194/Macro%20Media/Collaboration.jpg">
                                     </div>
-                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Home Search</h3>
+                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Collaboration</h3>
                                 </a>
                             </div>
                         </div>
@@ -108,9 +131,9 @@
                             <div class="gallery-component__col">
                                 <a class="gallery-card" href="#features3-b">
                                     <div class="gallery-card__preview">
-                                        <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}">
+                                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680106471/Macro%20Media/Work%20From%20Anywhere.jpg">
                                     </div>
-                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Home Search</h3>
+                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Flexibility</h3>
                                 </a>
                             </div>
                         </div>
@@ -120,13 +143,13 @@
                             <div class="gallery-component__col">
                                 <a class="gallery-card" href="#features3-b">
                                     <div class="gallery-card__preview">
-                                        <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}">
+                                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680106746/Macro%20Media/Creativity.jpg">
                                     </div>
-                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Home Search</h3>
+                                    <h3 style="font-family: 'Open Sans', sans-serif;" class="lp-h3 gallery-card__title">Creativity</h3>
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </section>
@@ -145,7 +168,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="card-wrap">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
+                                <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680107001/Macro%20Media/Profile%20Photo/323502207_1992398210963902_8732939677459244193_n.jpg_gbqlmk.jpg" alt="Mobirise Website Builder">
                             </div>
                             <div class="content-wrap">
                                 <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -183,7 +206,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="card-wrap">
                             <div class="image-wrap">
-                                <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">
+                                <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680106919/Macro%20Media/Profile%20Photo/323801308_1595983397499968_1029821931355567937_n.webp_f03tns.jpg" alt="Mobirise Website Builder">
                             </div>
                             <div class="content-wrap">
                                 <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -219,7 +242,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 ">
                         <div class="card-wrap">
                             <div class="image-wrap">
                                 <img src="{{ asset('img/index/person-icon.jpg') }}" alt="Mobirise Website Builder">

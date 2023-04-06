@@ -14,6 +14,14 @@
         <script type ="module" src="/js/smoothscroll/smooth-scroll.js'"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
         <!--Import Smooth Scroll JS file from resources-->        
         @vite(['resources/js/smoothscroll/smooth-scroll.js'])
 
@@ -36,7 +44,7 @@
          <br>
          <section id="hero" class="d-flex flex-row justify-content-between align-items-center p-5">           
 
-            <div class="hero-container" data-aos="fade-in">
+            <div class="hero-container typed-text" data-aos="fade-in">
                 <h1>Macro Media</h1>
                 <text>Services</text>
                 <p id="typed-text">We offer<span class="typed"></span></p>                
@@ -68,13 +76,153 @@
     </head>
 
     <body class="">
+
+            <section id="section1" class="d-flex flex-row justify-content-between align-items-center p-5">
+                <div class="col-12 col-md-9">
+                    <div class="section1-container" data-aos="fade-in">
+                        <h2>Are you ready to expand your business by dominating the digital world?</h2>
+                        <p class="col-10">Macro Media is a digital marketing agency comprised of dedicated professionals who are passionate about helping businesses to grow their sales and innovate their brands by building their online presence to the next level.</p>   
+                        <a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a>
+                </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 ">
+                    <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680462595/Macro%20Media/Seo-2.jpg" class="start-50 translate-middle-x" style="z-index: 100; ">
+                </div>
+                
+
+            </section>
+
+            <section data-bs-version="5.1" class="features1 cid-tAikQJZWJi" id="features1-k">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-9">
+                            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                                <strong>Our Digital Marketing Services</strong>
+                            </h3>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center ">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-code mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>SOCIAL MEDIA MANAGING</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and promote your business or product on different social media platforms to grow sales and drive engagements, converting prospective clients into paying customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-responsive-2 mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>SOCIAL MEDIA MARKETING</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and promote your business or product on different social media platforms to grow sales and drive engagements, converting prospective clients into paying customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>CONTENT CREATION</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and create high-quality content for your business to market your brand using video editing and graphic design.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center ">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-code mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>SEARCH ENGINE OPTIMIZATION (SEO)</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and optimize your website to increase your search rankings through organic traffic.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-responsive-2 mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>WEBSITE DESIGN & DEVELOPMENT</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and help you to create a website that will attract your customers to engage in your business.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-md-6 col-lg-3">
+                            <div class="card-wrapper">
+                                <div class="card-box align-center">
+                                    <div class="iconfont-wrapper">
+                                        <span class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri text-center"></span>
+                                    </div>
+                                    <h5 class="card-title mbr-fonts-style display-7 text-center"><strong>EMAIL MARKETING</strong></h5>
+                                    <p class="card-text mbr-fonts-style display-7 text-center">We will expand and help you to increase the open rate of your Emails to your customers by making a design template that suits your brand and monitoring its results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="testimonial text-center">
+                <div class="container">
+                    <div class="heading white-heading">
+                    Testimonial
+                    </div>
+                    <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4>Client 1</h4>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4>Client 2</h4>
+                        </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next" role="button" aria-label="Next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--
             <section id="hero-reversed" class="body-container justify-content-between align-items-center cid-sFGzrhlvIh"> 
                 <div id="" class="" data-aos="fade-in">
                     <div class="mbr-overlay" >
                         <div class="container mt-3">
                             <div class="media-container">
                                 <div class="col-md-12 col-lg-10 m-auto align-center">
-                                    <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1" style="color:white"><strong>Marketing <br>Research Agency</strong></h1>
+                                    <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1" style="color:white"><strong>Marketing Research Agency</strong></h1>
                                     <p class="mbr-text mbr-white mbr-fonts-style display-7" style="color:white">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus, sodales sollicitudin erat pulvinar. Quisque in mauris blandit, cursus ipsum non, hendrerit enim. Nullam fringilla ex sed maximus efficitur. Sed auctor justo elit, ac vestibulum metus semper non.</p>
                                     <div class="mbr-section-btn align-center text-center pt-3"><a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a> <a class="btn btn-secondary display-4" href="#features19-a">Read More</a></div>
@@ -119,7 +267,7 @@
                     </div>
                 </div>
 
-            </section>
+            </section> 
 
             <section data-bs-version="5.1" class="features19 cid-sFGBbGYuTc" id="features20-4">  
     
@@ -178,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>  
             
             <section data-bs-version="5.1" class="features3 cid-sFGGDvi61Z" id="features3-b">
                 
@@ -196,12 +344,12 @@
                                     <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5"><strong>Market Analysis</strong></h5>
+                                    <h5 class="item-title mbr-fonts-style display-5"><strong>Kups Hub</strong></h5>
                                     
                                     <p class="mbr-text mbr-fonts-style mt-3 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus.</p>
                                 </div>
-                                <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn btn-primary item-btn display-4" target="_blank">Learn More
-                                        &gt;</a></div>
+                                <div class="mbr-section-btn item-footer mt-2"><a href="https://www.facebook.com/kupshub" class="btn btn-primary item-btn display-4" target="_blank">Go to Website
+                                        &gt;&gt;</a></div>
                             </div>
                         </div>
                         <div class="item features-image сol-12 col-md-6 col-lg-4">
@@ -210,12 +358,12 @@
                                     <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5"><strong>Demand Research</strong></h5>
+                                    <h5 class="item-title mbr-fonts-style display-5"><strong>PCS Production</strong></h5>
                                     
                                     <p class="mbr-text mbr-fonts-style mt-3 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus.</p>
                                 </div>
-                                <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn btn-primary item-btn display-4" target="_blank">Learn More
-                                        &gt;</a></div>
+                                <div class="mbr-section-btn item-footer mt-2"><a href="https://www.facebook.com/PCSProductionOfficial" class="btn btn-primary item-btn display-4" target="_blank">Go to Website
+                                        &gt;&gt;</a></div>
                             </div>
                         </div>
                         <div class="item features-image сol-12 col-md-6 col-lg-4">
@@ -224,12 +372,12 @@
                                     <img src="{{ asset('img/index/strategic-market-analysis-img.jpg') }}" alt="Mobirise Website Builder">
                                 </div>
                                 <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5"><strong>Competitor Analysis</strong></h5>
+                                    <h5 class="item-title mbr-fonts-style display-5"><strong>Mob Character 3</strong></h5>
                                     
                                     <p class="mbr-text mbr-fonts-style mt-3 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus.<br></p>
                                 </div>
-                                <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn btn-primary item-btn display-4" target="_blank">Learn More
-                                        &gt;</a></div>
+                                <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn btn-primary item-btn display-4" target="_blank">Go to Website
+                                        &gt;&gt;</a></div>
                             </div>
                         </div>
                     </div>
@@ -237,9 +385,7 @@
             </section>
 
             <section data-bs-version="5.1" class="features9 cid-sFGBGm1Q33" id="features10-5">
-                <!---->
-                
-                
+                                
                 <div class="container">
                     <div class="mbr-section-head">
                         <h3 class="mbr-section-title mbr-fonts-style mb-0 display-2">
@@ -287,7 +433,7 @@
                             <div class="card-wrapper">
                                 <div class="top-line row">
                                     <div class="col">
-                                        <h4 class="card-title mbr-fonts-style display-5"><strong>Competitor Analysis</strong></h4>
+                                        <h4 class="card-title mbr-fonts-style display-5"><strong>Competitor Analyssi</strong></h4>
                                     </div>
                                     <div class="col-auto">
                                         <p class="price mbr-fonts-style display-5">
@@ -311,7 +457,9 @@
                         
                     </div>
                 </div>
-            </section>
+            </section>  -->
+
+            
             
             <section data-bs-version="5.1" class="clients1 cid-sFGFZiVtyo" id="clients1-8">
                 
@@ -325,22 +473,22 @@
                     </div>
                     <div class="row justify-content-center mt-4 img-front">
                         <div class="col-md-3 card">
-                            <img src="{{asset('img/index/clients/pcs-logo.png')}}" alt="Mobirise Website Builder">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
                         </div>
                         <div class="col-md-3 card">
-                            <img src="assets/images/2.png">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg">
                         </div>
                         <div class="col-md-3 card">
-                            <img src="assets/images/3.png">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png">
                         </div>
                         <div class="col-md-3 card">
-                            <img src="assets/images/4.png" alt="Mobirise Website Builder">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
                         </div>
                         <div class="col-md-3 card">
-                            <img src="assets/images/2.png" alt="Mobirise Website Builder">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg" alt="Mobirise Website Builder">
                         </div>
                         <div class="col-md-3 card">
-                            <img src="assets/images/3.png" alt="Mobirise Website Builder">
+                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png" alt="Mobirise Website Builder">
                         </div>
                         
                         
@@ -531,6 +679,8 @@
                     </div>
                 </div>
             </section>
+
+            
 
             <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap; align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/2972995" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
             </section>

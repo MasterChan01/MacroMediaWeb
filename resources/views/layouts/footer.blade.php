@@ -10,7 +10,13 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    
+
+
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="{{ asset('icons/mobirise-icons2/mobirise2.css') }}">
+    <link rel="stylesheet" href="{{ asset('icons/socicon/css/styles.css') }}">
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -21,12 +27,14 @@
     @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
     @vite(['resources/css/mobirise.css'])
 
+    
+
 </head>
 <body>
 
-    <section data-bs-version="5.1" class="footer1 cid-sFGDg6hy8z" once="footers" id="footer1-7">
+    <section data-bs-version="5.1" class="footer1 cid-sFGDg6hy8z border-top border-bottom-0 border-right-0 border-left-0 " style="border-color: red;" once="footers" id="footer1-7">
 
-                <div class="container">
+                <div class="container ">
                     <div class="row mbr-white">
                         <div class="col-12 col-md-6 col-lg-3">
                             <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">

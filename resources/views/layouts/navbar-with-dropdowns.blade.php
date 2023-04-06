@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Macromedia') }}</title>
 
     <!-- Styles -->
     
@@ -40,7 +40,7 @@
                     <nav class="navbar">
                         <div class="container-fluid">
                             <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
+                                <ul class="navbar-nav" style="font-family: 'Nunito', sans-serif;">
                                     <li class="nav-item">
                                         <a class="nav-link mx-2" href="{{ url('/') }}">Home</a>
                                     </li>
@@ -88,7 +88,7 @@
                                         <a class="nav-link mx-2" href="/about">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link mx-2" href="#">Contact Us</a>
+                                        <a class="nav-link mx-2" href="/contact-us">Contact Us</a>
                                         
                                     </li>
                                 </ul>
