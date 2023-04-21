@@ -2066,10 +2066,24 @@ a {
 .cid-tAikQJZWJi {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #ffffff;
+  background-color: #414141;
+}
+.cid-tAikQJZWJi .mbr-section-title{
+  color: #e6dbdb;
+  padding-bottom: 2rem; 
+}
+.cid-tAikQJZWJi .mbr-fonts-style{
+  color: #e6dbdb;
+}
+.cid-tAikQJZWJi .card-title{
+  color: #c37a7a;
+}
+.cid-tAikQJZWJi .card-text{
+  color: #bbbbbb;
 }
 .cid-tAikQJZWJi .card {
   border: none;
+  background-color: #232323;
 }
 .cid-tAikQJZWJi .mbr-fallback-image.disabled {
   display: none;

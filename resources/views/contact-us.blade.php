@@ -60,79 +60,129 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{{asset('contactform/bootstrap.min.css')}}">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Contact Form</title>
     </head>
 
+    
     <body class="">
            
-     <div id="lead-form" class="x-section section__content pbl" style="margin: 0px;padding: 0px; background-color: transparent;"><div class="x-container max width" style="margin: 0px auto;padding: 0px;"><div class="x-column x-sm x-1-1" style="padding: 0px;"><h2 class="h-custom-headline cs-ta-center h3"><span>Let’s Start a Conversation</span></h2></div></div><div class="x-container max width" style="margin: 0px auto 80px;padding: 0px;"><div class="x-column x-sm x-1-2" style="padding: 0px;"><div class="x-text"><h4 class="h-custom-headline h4" style="margin-top: -10px;"><strong>Ask how we can help you:</strong></h4>
-        <p><span style="color: #000000;"><span style="font-weight: 400;">See our platform in action<br>
-        </span></span><span style="font-weight: 300;"></span>Request a personalized demo of TUNE’s partner marketing platform<span style="font-weight: 300;">.</span></p>
-        <p><span style="font-weight: 400;"><span style="color: #000000;">Master performance marketing<br>
-        </span><span style="font-weight: 300;">From&nbsp;</span><a href="https://academy.tune.com/"><span style="font-weight: 400;">TUNE Academy courses</span></a><span style="font-weight: 300;"> to industry&nbsp;</span><a href="https://www.tune.com/resources/resource-library/#industry-research"><span style="font-weight: 400;">research</span></a><span style="font-weight: 300;"> and </span><a href="https://www.tune.com/blog/"><span style="font-weight: 400;">insights</span></a><span style="font-weight: 300;">, learn how to grow your business through performance-based partnerships.</span></span></p>
-        <p><span style="font-weight: 400;"><span style="color: #000000;">Explore life at TUNE<br>
-        </span></span><span style="font-weight: 300;">Search <a href="https://www.tune.com/careers/"><span style="font-weight: 400;">open positions</span></a>, read about company culture and values, and explore our charitable initiatives.<br>
-        </span></p>
-        <h4></h4>
-        <h4 class="h-custom-headline h4"><strong>Points of Contact</strong></h4>
-        <p><span style="color: #000000;"><span style="font-weight: 400;">U.S. | TUNE</span></span><br>
-        <span style="font-weight: 300;">11350 McCormick Rd, EP III, Suite 200, <br>
-        Hunt Valley, MD 21031</span></p>
-        <p></p>
-        <p><span style="color: #000000;"><span style="font-weight: 400;">Information and Sales</span></span><br>
-        <a href="mailto:partnermarketing@tune.com"><span style="font-weight: 400;">partnermarketing@tune.com</span></a></p>
-        <p><span style="font-weight: 300;"><span style="color: #000000;"><span style="font-weight: 400;">Support</span></span><br>
-        </span><a href="mailto:support@tune.com"><span style="font-weight: 400;">support@tune.com</span></a></p>
-        <p><span style="font-weight: 300;"><span style="color: #000000;"><span style="font-weight: 400;">Verification of Employment</span></span><br>
-        </span><a href="mailto:voe@constellationhbs.com"><span style="font-weight: 400;">voe@constellationhbs.com</span></a></p>
-        <h4 class="h-custom-headline h4"><strong>Additional Office Locations</strong></h4>
-        <p><span style="color: #000000;"><span style="font-weight: 400;">Germany</span></span><br>
-        <span style="font-weight: 300;">Torstr. 231, Vorderhaus, 1. OG, 10115 Berlin</span></p>
-        </div></div><div class="x-column x-sm lead-form x-1-2" style="padding: 0px;"><div class="x-raw-content">
+        <template>
+                    @if(session('message'))
+                        <div class="alert">{{ session('message') }}</div>
+                    @endif
+        </template>
 
-        <div class="form--helper-text">Please note: all fields are required.</div>
-        <script src="//app-ab40.marketo.com/js/forms2/js/forms2.min.js" type="text/javascript"></script>
-        <form id="mktoForm_1008" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutAbove" style="font-family: Lato; color: rgb(51, 51, 51); width: 1368px;"><style type="text/css">.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
-            color:#fff;
-            border:1px solid #75ae4c;
-            padding:0.4em 1em;
-            font-size:1em;
-            background-color:#99c47c;
-            background-image: -webkit-gradient(linear, left top, left bottom, from(#99c47c), to(#75ae4c));
-            background-image: -webkit-linear-gradient(top, #99c47c, #75ae4c);
-            background-image: -moz-linear-gradient(top, #99c47c, #75ae4c);
-            background-image: linear-gradient(to bottom, #99c47c, #75ae4c);
-            }
-            .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
-            border:1px solid #447f19;
-            }
-            .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:focus {
-            outline:none;
-            border:1px solid #447f19;
-            }
-            .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:active{
-            background-color:#75ae4c;
-            background-image: -webkit-gradient(linear, left top, left bottom, from(#75ae4c), to(#99c47c));
-            background-image: -webkit-linear-gradient(top, #75ae4c, #99c47c);
-            background-image: -moz-linear-gradient(top, #75ae4c, #99c47c);
-            background-image: linear-gradient(to bottom, #75ae4c, #99c47c);
-            }
-        </style>        
-             <script type="text/javascript">MktoForms2.loadForm("//app-ab40.marketo.com", "014-JEF-065", 1008, function(form){
-                form.onValidate(function(isValid){
-                    if(!isValid){ 
-                        tuneForm.setEventStatus('error');
-                    } else { 
-                        tuneForm.setEventStatus('success');
-                    }
-                    tuneForm.init(); 
-            });
-        });
+        <section id="contact-form" class="contact-form">
+            <div class="content">
+        
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">                
 
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                            
+                            <h6 class="heading mb-4 text-start">Ready to EXPAND your business? Get in touch with Us Today</h6>
+                            <p style="font-family: 'Lato', sans-serif; font-family: 'Open Sans', sans-serif;">This is the <b>Digital Era</b>, and in order to keep up with your competitors you must build your online presence. Our team knows that every business has unique capabilities, which is why we take the time to get to know you and your brand. <br> <br> We will make sure that your digital marketing strategy is tailored to your specific needs and to your target market as well.</p>
+
+                            <p><img src="{{asset('img/undraw-contact.svg')}}" alt="Image" class="img-fluid"></p>
+
+                            </div>
+                            <div class="col-md-6">
+                            
+                            <form class="" method="post" id="contactForm" name="contactForm" action="{{ route('contact.send') }}">
+                                
+                                @csrf
+
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="contactnumber" id="contactnumber" placeholder="Contact Number">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="companyname" id="companyname" placeholder="Company Name">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="service" id="service" placeholder="Type of Service">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                </div>
+                                </div>
+                                
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <textarea class="form-control" name="details" id="details" cols="30" rows="7" placeholder="Details"></textarea>
+                                </div>
+                                </div>  
+                                <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="advertisement" id="advertisement" placeholder="How did you find about us?">
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-12">
+                                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                                <span class="submitting"></span>
+                                </div>
+                                </div>
+                                
+                            </form>
+
+                            <div id="form-message-warning mt-4"></div> 
+                            <div id="form-message-success">
+                                Your message was sent, thank you!
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </section>            
+                  
+        <script>
+           window.onload = function() {
+                if('{{ session('message') }}') {
+                    alert('{{ session('message') }}');
+                }
+            }
         </script>
-        </div></div></div></div>
-                    
-                    
+
     </body>
+
+
 
     <footer>
         @include('layouts.footer')

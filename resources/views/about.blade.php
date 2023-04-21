@@ -285,6 +285,41 @@
 
         </section>
 
+        <section data-bs-version="5.1" class="clients1 cid-sFGFZiVtyo" id="clients1-8">
+                
+            <div class="images-container container">
+                <div class="mbr-section-head">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Our Clients</strong>
+                    </h3>
+                    
+                    
+                </div>
+                <div class="row justify-content-center mt-4 img-front">
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg">
+                    </div>
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png">
+                    </div>
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="col-md-3 card">
+                        <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png" alt="Mobirise Website Builder">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
         
         
         @include('layouts.footer')

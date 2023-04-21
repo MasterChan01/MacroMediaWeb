@@ -25,4 +25,11 @@ Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('i
 Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/js/app.js', 'App\Http\Controllers\Jscontroller@getAppJs');
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
-Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
+Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index'])->name('contact-us');
+Route::post('/contact-us', [App\Http\Controllers\ContactController::class, 'sendContactForm'])->name('contact.send');
+Route::get('/email', [App\Http\Controllers\ContactController::class, 'sendContactForm']);
+
+
+
+Route::group(['middleware' => 'web'], function () {
+});

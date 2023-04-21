@@ -8,7 +8,8 @@ let typed = new Typed('#typed-text', {
     strings: [...dynamicStrings.map(str => `We offer ${str}`)], // Concatenate "We offer" with each dynamic string
     typeSpeed: 100, // Speed of typing in milliseconds
     backSpeed: 50, // Speed of backspacing in milliseconds
-    loop: true // Whether or not to loop through the strings array
+    loop: true, // Whether or not to loop through the strings array    
+    showCursor: false // Set to false to hide the cursor element
 });
 
 /******************************CHEVRON TOGGLE ICON**********************************/ 

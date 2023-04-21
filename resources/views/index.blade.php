@@ -41,19 +41,20 @@
         @include('layouts.navtop')
     
          <!-- Hero Section --> 
-         <br>
-         <section id="hero" class="d-flex flex-row justify-content-between align-items-center p-5">           
+        <section id="hero" class="d-flex flex-row justify-content-between align-items-center p-5">           
 
-            <div class="hero-container typed-text" data-aos="fade-in">
-                <h1>Macro Media</h1>
-                <text>Services</text>
-                <p id="typed-text">We offer<span class="typed"></span></p>                
-            </div>
+            <div class="hero-container typed-text" data-aos="fade-in">                 
+                
+                <video autoplay muted loop id="Video">  
+                    <source src="https://res.cloudinary.com/db4mbjjvt/video/upload/v1682098248/Macro%20Media/bgvideo-droneview_zj5upc.mp4" type="video/mp4">
+                </video>
 
-            <div class="img-container d-flex justify-content-end align-items-center">
-                <img src="{{asset('img/seo-hero-photo.jpg')}}" alt="" style="width: 650px" class="img-fluid">
-            </div>
-
+                <div class="vidcontent">
+                    <h1>Macro Media</h1>
+                    <text>Services</text>
+                    <p id="typed-text">We offer</p>    
+                </div>
+            </div>       
         </section>        
         <!-- End Hero -->
 
@@ -461,40 +462,7 @@
 
             
             
-            <section data-bs-version="5.1" class="clients1 cid-sFGFZiVtyo" id="clients1-8">
-                
-                <div class="images-container container">
-                    <div class="mbr-section-head">
-                        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Our Clients</strong>
-                        </h3>
-                        
-                        
-                    </div>
-                    <div class="row justify-content-center mt-4 img-front">
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
-                        </div>
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg">
-                        </div>
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png">
-                        </div>
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542776/Macro%20Media/Clients/PCS.png.png" alt="Mobirise Website Builder">
-                        </div>
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542665/Macro%20Media/Clients/Kups.jpg" alt="Mobirise Website Builder">
-                        </div>
-                        <div class="col-md-3 card">
-                            <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1680542882/Macro%20Media/Clients/MasterChan.png.png" alt="Mobirise Website Builder">
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </section>
+            
 
             <section data-bs-version="5.1" class="contacts1 cid-sFGJrLtt3K" id="contacts1-c">
 
@@ -682,8 +650,7 @@
 
             
 
-            <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap; align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/2972995" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
-            </section>
+            
             <!--
             <section  class="d-flex flex-row justify-content-between align-items-center ">           
 
