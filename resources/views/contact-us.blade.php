@@ -171,15 +171,6 @@
             </div>
 
         </section>            
-                  
-        <script>
-           window.onload = function() {
-                if('{{ session('message') }}') {
-                    alert('{{ session('message') }}');
-                }
-            }
-        </script>
-
     </body>
 
 

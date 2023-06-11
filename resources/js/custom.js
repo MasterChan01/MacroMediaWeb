@@ -30,23 +30,10 @@ dropdownToggle.addEventListener('hidden.bs.dropdown', function () {
 var navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', function() {
+    console.log('Scroll event Fired! Working!');
     if (window.pageYOffset > navbar.offsetTop) {
         navbar.classList.add('sticky');
     } else {
         navbar.classList.remove('sticky');
     }
-});
-
-/******************************Slider Javascript**********************************/ 
-
-$(document).ready(function(){
-    $("#testimonial4 .carousel-control-next").click(function(){
-        var currentItem = $("#testimonial4 .carousel-item.active");
-        var nextItem = currentItem.next();
-        if (nextItem.length == 0) {
-            nextItem = $("#testimonial4 .carousel-item").first();
-        }
-        currentItem.removeClass("active");
-        nextItem.addClass("active");
-    });
 });

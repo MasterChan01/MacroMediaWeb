@@ -13,7 +13,6 @@
         <script src="{{ url('/js/app.js') }}"></script>
         <script type ="module" src="/js/smoothscroll/smooth-scroll.js'"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
@@ -83,7 +82,7 @@
                     <div class="section1-container" data-aos="fade-in">
                         <h2>Are you ready to expand your business by dominating the digital world?</h2>
                         <p class="col-10">Macro Media is a digital marketing agency comprised of dedicated professionals who are passionate about helping businesses to grow their sales and innovate their brands by building their online presence to the next level.</p>   
-                        <a class="btn btn-primary display-4" href="https://mobiri.se/">Get Started</a>
+                        <a class="btn btn-primary display-4 " href="#">Get Started</a>
                 </div>
                     </div>
                 </div>
@@ -174,42 +173,57 @@
                                     <p class="card-text mbr-fonts-style display-7 text-center">We will expand and help you to increase the open rate of your Emails to your customers by making a design template that suits your brand and monitoring its results.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
+
                         
                     </div>
-                </div>
+                </div> 
             </section>
             
             
-            <section class="testimonial text-center">
+            <section data-bs-version="5.1" class="testimonials2 cid-tGudgttHvr mbr-parallax-background" id="testimonials2-0">
+        
+                <div class="mbr-overlay" style="opacity: 0; background-color: rgb(255, 255, 255);">
+                </div>
                 <div class="container">
-                    <div class="heading white-heading">
-                    Testimonial
-                    </div>
-                    <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <h4>Client 1</h4>
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                        <strong>Testimonials</strong>
+                    </h3>
+                    <div class="row justify-content-center">
+                        <div class="card col-12 col-md-6">
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7">"Discovering MacroMedia has been a game-changer for my business. Their engaging content, supportive community, and expert guidance have transformed my social media presence. I've gained new clients, increased brand awareness, and experienced undeniable growth. If you're serious about success, message <i>MacroMediaph</i> now and prepare for incredible results!"</p>
+                            <div class="d-flex mb-md-0 mb-4">
+                                <div class="image-wrapper">
+                                    <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1686132807/Macro%20Media/human-icon.png" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="text-wrapper">
+                                    <p class="name mbr-fonts-style mb-1 display-4">
+                                        <strong>Coach Nick</strong>
+                                    </p>
+                                    <p class="position mbr-fonts-style display-4">
+                                        <strong>Client</strong>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
+                        <div class="card col-12 col-md-6">
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7">“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.
+
+Thanks, guys!”</p>
+                            <div class="d-flex mb-md-0 mb-4">
+                                <div class="image-wrapper">
+                                    <img src="https://res.cloudinary.com/db4mbjjvt/image/upload/v1686132807/Macro%20Media/human-icon.png" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="text-wrapper">
+                                    <p class="name mbr-fonts-style mb-1 display-4">
+                                        <strong>Christian Garcia</strong>
+                                    </p>
+                                    <p class="position mbr-fonts-style display-4">
+                                        <strong>Client</strong>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <h4>Client 2</h4>
-                        </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#testimonial4" data-slide="next" role="button" aria-label="Next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                     </div>
                 </div>
             </section>
@@ -522,7 +536,7 @@
                 </div>
             </section>
 
-            <section data-bs-version="5.1" class="testimonials2 cid-sFGJsyrALx" id="testimonials2-d">
+            <!--<section data-bs-version="5.1" class="testimonials2 cid-sFGJsyrALx" id="testimonials2-d">
                 
                 
                 <div class="container">
@@ -564,7 +578,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
+           
+            
 
             <section data-bs-version="5.1" class="map3 cid-sFGDeCn4OW" id="map3-6">                
                 
@@ -586,68 +602,7 @@
                 </div>
             </section>
 
-            <section data-bs-version="5.1" class="footer1 cid-sFGDg6hy8z" once="footers" id="footer1-7">
-
-                <div class="container">
-                    <div class="row mbr-white">
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                                <strong>Links</strong></h5>
-                            <ul class="list mbr-fonts-style display-4">
-                                <li class="mbr-text item-wrap">Home</li><li class="mbr-text item-wrap">Features</li><li class="mbr-text item-wrap">Research</li><li class="mbr-text item-wrap">Team</li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                                <strong>Info</strong></h5>
-                            <ul class="list mbr-fonts-style display-4">
-
-                                <li class="mbr-text item-wrap">About</li><li class="mbr-text item-wrap">Pricing</li><li class="mbr-text item-wrap">Contacts</li><li class="mbr-text item-wrap">Office</li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                                <strong>Features</strong></h5>
-                            <ul class="list mbr-fonts-style display-4">
-                                <li class="mbr-text item-wrap">Market Analysis
-                                </li><li class="mbr-text item-wrap">Demand Research
-                                </li><li class="mbr-text item-wrap">Competitor Analysis
-                                </li><li class="mbr-text item-wrap">Research Results
-                                </li><li class="mbr-text item-wrap"><br></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                                <strong>About</strong>
-                            </h5>
-                            <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus,</p>
-                            <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
-                                <strong>Social</strong>
-                            </h5>
-                            <div class="social-row display-7">
-                                <div class="soc-item">
-                                    <a href="https://twitter.com/mobirise" target="_blank">
-                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                    </a>
-                                </div>
-                                <div class="soc-item">
-                                    <a href="https://twitter.com/mobirise" target="_blank">
-                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                    </a>
-                                </div>
-                                <div class="soc-item">
-                                    <a href="https://twitter.com/mobirise" target="_blank">
-                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </section>
-
+            @include('layouts.footer')
             
 
             

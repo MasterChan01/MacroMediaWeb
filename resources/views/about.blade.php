@@ -28,9 +28,8 @@
         @vite(['resources/js/smoothscroll/smooth-scroll.js'])
 
         <!--Import JS AND CSS RULES-->
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
-
+        @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/js/custom.js'])
+        @vite(['resources/js/typed/typed.min.js','resources/js/custom.js'])
         @vite(['resources/css/app.css'])
 
         
@@ -91,24 +90,66 @@
 
         </section>
 
+        <section data-bs-version="5.1" class="features17 cid-tGuotxh5We" id="features18-2">
+              
+            <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);">
+            </div>
+            <div class="container">
+                <div class="mbr-section-head">
+                    <div class="col-12">
+                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                            <strong>Company Statement</strong>
+                        </h4>
+                        <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">
+                            ###
+                        </h5>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="card-wrapper mb-4">
+                            <div class="card-box align-left">
+                                <h4 class="card-title mbr-fonts-style align-left display-7 pb-3">
+                                    <strong>Mission</strong>
+                                </h4>
+                                <p class="mbr-text mbr-fonts-style mb-3 display-7">
+                                    "Our Mission is to help any type of businesses increase conversions and revenue by providing
+excellence in different kinds of digital marketing strategies.""
+                                    </p><div class="link-wrap">
+                                        <h6 class="link mbr-fonts-style align-left display-4">
+                                            <a class="text-primary" href="#">Learn more &gt;</a>
+                                        </h6>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="card-wrapper mb-4">
+                            <div class="card-box align-left">
+                                <h4 class="card-title mbr-fonts-style align-left display-7">
+                                    <strong>Vision</strong>
+                                </h4>
+                                <p class="mbr-text mbr-fonts-style mb-3 display-7 pb-3">
+                                "Our Vision is to be known as a globally competitive marketing agency composed of top-notch professionals that
+provides creativity, unique, and high quality of service.""
+                                    </p><div class="link-wrap">
+                                        <h6 class="link mbr-fonts-style align-left display-4">
+                                            <a class="text-primary" href="#">Learn more &gt;</a>
+                                        </h6>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
         <section data-bs-version="5.1" class="features3 cid-sFGGDvi61Z" id="features3-b">                
                 
             <div class="container">
-                <div class="mbr-section-head">
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Mission</strong></h4>
-
-                    <p class="mbr-text mbr-fonts-style display-7 text-center p-6">
-                    "Our Mission is to help any type of businesses increase conversions and revenue by providing <br> excellence in different kinds of digital marketing strategies."
-                    </p>
-                    
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Vision</strong></h4>
-
-                    <p class="mbr-text mbr-fonts-style display-7 text-center p-6">
-                    "Our Vision is to be known as a globally competitive marketing agency composed of top-notch professionals that <br> provides creativity, unique, and high quality of service."
-                    </p>
-
+                <div class="mbr-section-head">                  
                     <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                         <strong>Core Values</strong></h4>
                     

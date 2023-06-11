@@ -17,19 +17,17 @@ Route::get('/', function () {
     return view('index');
 });
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index');
-#Route::get('/login', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/public', [App\Http\Controllers\HomeController::class, 'index'])->name('public');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'index'])->name('welcome');
 Route::get('/js/app.js', 'App\Http\Controllers\Jscontroller@getAppJs');
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
+Route::get('/faq', [App\Http\Controllers\FaqController::class, 'index'])->name('faq');
 Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index'])->name('contact-us');
 Route::post('/contact-us', [App\Http\Controllers\ContactController::class, 'sendContactForm'])->name('contact.send');
 Route::get('/email', [App\Http\Controllers\ContactController::class, 'sendContactForm']);
+Route::get('/services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
 
-
-
-Route::group(['middleware' => 'web'], function () {
-});
+Route::group(['middleware' => 'web'], function () {});

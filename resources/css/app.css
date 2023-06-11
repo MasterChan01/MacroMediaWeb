@@ -382,6 +382,8 @@ nav {
 }
 
 
+
+
 /************************************ COLORS ********************************************/
 .span-bg-color{
     background-color:#FFA500;
@@ -589,7 +591,7 @@ color: #ccb091;
     position: relative;
     margin-bottom: 70px;
     text-transform: uppercase;
-    z-index: 999;
+    z-index: 900;
 }
 .white-heading{
     color: #ffffff;

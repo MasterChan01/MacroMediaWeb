@@ -17,8 +17,8 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    @vite(['resources/js/typed/typed.min.js','resources/js/custom.js' ])
+    @vite(['resources/sass/app.scss', 'resources/js/app.js','resources/js/custom.js'])
+    @vite(['resources/js/typed/typed.min.js'])
 
 </head>
 <body>
@@ -42,7 +42,7 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav" style="font-family: 'Nunito', sans-serif;">
                                     <li class="nav-item">
-                                        <a class="nav-link mx-2" href="{{ url('/') }}">Home</a>
+                                        <a class="nav-link mx-2" href="../">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link mx-2" href="#">Blog</a>
@@ -56,36 +56,40 @@
                                     <div class="drawer justify-content-center" id="services-drawer">                                        
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <a href="../services">
                                                     <i class="fas fa-film" ></i>Video Editing
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="../services">
                                                     <i class="fas fa-palette" style="color:#a794ef;"></i>Graphic Design
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="../services">
                                                 <i class="fas fa-cogs" style="color:skyblue;"></i>Social Media Management
                                                 </a>
                                             </li>                                            
                                             <li>
-                                                <a href="#">
+                                                <a href="../services">
                                                     <i class="fas fa-bullhorn" style="color:#58b771;"></i>Social Media Marketing
                                                 </a>
                                             </li>
+                                            <!--
                                             <li>
                                                 <a href="#">
                                                     <i class="fas fa-search-plus" style="color:gray;"></i>Search Engine Optimization
                                                 </a>
-                                            </li>
+                                            </li>-->
                                         </ul>
                                     </div>
 
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link mx-2" href="/about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-2" href="/faq">FAQ</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link mx-2" href="/contact-us">Contact Us</a>

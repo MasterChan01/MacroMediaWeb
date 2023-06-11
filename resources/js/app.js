@@ -10,11 +10,11 @@ import { createApp } from 'vue';
 /*Import Smoothscroll JS*/
 
 import smoothscroll from 'smoothscroll';
-var smoothscroll = require('smoothscroll');
+//var smoothscroll = require('smoothscroll');
 
 
 import './typed/typed.min.js';
-import './typed/typed.min.js.map';
+//import './typed/typed.min.js.map';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
