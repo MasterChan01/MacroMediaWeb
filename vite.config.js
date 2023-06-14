@@ -6,22 +6,33 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/sass/app.scss',
-                'resources/js/app.js',
-                // Add more individual files here
-                'resources/js/smoothscroll/smooth-scroll.js',
-                'resources/js/swiper/swiper-bundle.min.css',
-                'resources/js/swiper/swiper-bundle.min.js',
-                //'resources/js/swiper/swiper-bundle.min.js.map',
-                'resources/js/typed/typed.js',
-                'resources/js/typed/typed.min.js',
-                //'resources/js/typed/typed.min.js.map',
-                'resources/js/custom.js',
-                'resources/js/bootstrap.js',
+                // Put ALL CSS FILES HERE - CHRISTIAN 
                 'resources/css/app.css',
                 'resources/css/mobirise.css',
                 'resources/css/parallax/jarallax.css',
-                'resources/css/parallax/jarallax.js'
+                'resources/js/swiper/swiper-bundle.min.css',
+
+                'resources/css/landingpage/About.css',
+                'resources/css/landingpage/nicepage.css',
+
+                // Put ALL SCSS FILES HERE - CHRISTIAN 
+                'resources/sass/app.scss',                
+                
+                // Put ALL JS FILES HERE - CHRISTIAN   
+                'resources/js/custom.js',
+                'resources/js/bootstrap.js',
+                'resources/js/app.js',
+                'resources/js/smoothscroll/smooth-scroll.js',                
+                'resources/js/swiper/swiper-bundle.min.js',
+                'resources/js/typed/typed.js',
+                'resources/js/typed/typed.min.js',
+                'resources/css/parallax/jarallax.js',
+                
+                'resources/js/landingpage/jquery.js',
+                'resources/js/landingpage/nicepage.js',
+
+                // FOR THE .map files or other files, I DONT KNOW! I AM STILL LEARNING
+
             ],
             exclude: ['resources/typed.min.js.map'],
             refresh: true,

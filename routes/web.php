@@ -29,5 +29,6 @@ Route::get('/contact-us', [App\Http\Controllers\ContactController::class, 'index
 Route::post('/contact-us', [App\Http\Controllers\ContactController::class, 'sendContactForm'])->name('contact.send');
 Route::get('/email', [App\Http\Controllers\ContactController::class, 'sendContactForm']);
 Route::get('/services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
+Route::get('/signup', [App\Http\Controllers\SignUpController::class, 'index'])->name('signup');
 
 Route::group(['middleware' => 'web'], function () {});
