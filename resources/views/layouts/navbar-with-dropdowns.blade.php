@@ -38,14 +38,14 @@
                     <!-- Left Side Of Navbar -->
 
                     <nav class="navbar">
-                        <div class="container-fluid">
+                        <div class="container-fluid"> 
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav" style="font-family: 'Nunito', sans-serif;">
                                     <li class="nav-item">
                                         <a class="nav-link mx-2" href="../">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link mx-2" href="#">Blog</a>
+                                        <a class="nav-link mx-2" href="../signup">Promo</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services 
