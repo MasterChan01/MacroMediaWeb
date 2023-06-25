@@ -21,7 +21,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-        <!--Import Smooth Scroll JS file from resources-->        
+        <!--Import Smooth Scroll JS file from resources dasdwadstest-->        
         @vite(['resources/js/smoothscroll/smooth-scroll.js'])
 
         
